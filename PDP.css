@@ -1,8 +1,8 @@
 body{
     display: grid;
     grid-template-areas: "cabeca cabeca" "braco corpo" "pe pe";
-    grid-template-rows: 100px 500px 100px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 1fr 4fr;
 
 }
 header{
@@ -42,4 +42,32 @@ footer{
     aside{
         display: none;
     }
+}
+.prod{
+
+}
+.model{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    background-color: crimson;
+    width: 400px;
+    height: 500;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.imagem_produto{
+    height: 350px;
+}
+.d_produto{
+    font-size: xx-large;
+}
+.p_produto{
+    font-size: x-large;
+}
+.botao_produto{
+    font-size: x-large;
 }
