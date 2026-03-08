@@ -43,9 +43,7 @@ footer{
         display: none;
     }
 }
-.prod{
 
-}
 .model{
     display: flex;
     flex-direction: column;
@@ -63,11 +61,29 @@ footer{
     height: 350px;
 }
 .d_produto{
+    color: darksalmon;
     font-size: xx-large;
 }
 .p_produto{
-    font-size: x-large;
+    color: rgb(255, 20, 20);
+    font-size: 40px;
 }
 .botao_produto{
-    font-size: x-large;
+    font-size: 30px;
+    background-color: black;
+    width: 50%;
+    text-decoration: none;
+    height: 50px;
+    border-radius: 20px;
+}
+.letra_botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+}
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
