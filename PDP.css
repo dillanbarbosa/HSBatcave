@@ -26,7 +26,7 @@ footer{
     body{
         display: grid;
         grid-template-areas: "cabeca" "braco" "corpo" "pe";
-        grid-template-rows: 100px 50px 500px 100px;
+        grid-template-rows: 100px 50px auto 100px;
         grid-template-columns: auto;
 
     }
@@ -35,7 +35,7 @@ footer{
     body{
         display: grid;
         grid-template-areas: "cabeca" "corpo" "pe";
-        grid-template-rows: 100px 500px 100px;
+        grid-template-rows: 100px auto 100px;
         grid-template-columns: auto;
 
     }
