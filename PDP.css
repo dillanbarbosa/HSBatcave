@@ -7,19 +7,19 @@ body{
 }
 header{
     grid-area: cabeca;
-    background-color: palevioletred;
+    background-color: rgb(0, 0, 0);
 }
 aside{
     grid-area: braco;
-    background-color: blueviolet;
+    background-color: rgb(216, 202, 5);
 }
 main{
     grid-area: corpo;
-    background-color: rgb(0, 225, 255);
+    background-color: rgb(9, 9, 46);
 }
 footer{
     grid-area: pe;
-    background-color: rgb(0, 0, 163);
+    background-color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 850px){
@@ -50,7 +50,7 @@ footer{
     justify-content: space-between;
     padding: 50px;
     align-items: center;
-    background-color: crimson;
+    background-color: rgb(0, 0, 114);
     width: 400px;
     height: 500;
     border-radius: 10px;
@@ -61,11 +61,11 @@ footer{
     height: 350px;
 }
 .d_produto{
-    color: darksalmon;
+    color: rgb(255, 255, 255);
     font-size: xx-large;
 }
 .p_produto{
-    color: rgb(255, 20, 20);
+    color: rgb(216, 219, 0);
     font-size: 40px;
 }
 .botao_produto{
