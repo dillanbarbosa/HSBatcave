@@ -1,29 +1,39 @@
-body{
+body {
     display: grid;
     grid-template-areas: "cabeca cabeca" "braco corpo" "pe pe";
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 150px auto 100px;
     grid-template-columns: 1fr 4fr;
 
 }
-header{
+
+header {
     grid-area: cabeca;
     background-color: rgb(0, 0, 0);
+    display: flex;
+    place-items: center;
+    color: rgb(216, 202, 5);
+    font-family: 'Batman Forever';
+
+    
 }
-aside{
+
+aside {
     grid-area: braco;
     background-color: rgb(216, 202, 5);
 }
-main{
+
+main {
     grid-area: corpo;
     background-color: rgb(9, 9, 46);
 }
-footer{
+
+footer {
     grid-area: pe;
     background-color: rgb(0, 0, 0);
 }
 
-@media only screen and (max-width: 850px){
-    body{
+@media only screen and (max-width: 850px) {
+    body {
         display: grid;
         grid-template-areas: "cabeca" "braco" "corpo" "pe";
         grid-template-rows: 100px 50px auto 100px;
@@ -31,20 +41,22 @@ footer{
 
     }
 }
-@media only screen and (max-width:450px){
-    body{
+
+@media only screen and (max-width:450px) {
+    body {
         display: grid;
         grid-template-areas: "cabeca" "corpo" "pe";
         grid-template-rows: 100px auto 100px;
         grid-template-columns: auto;
 
     }
-    aside{
+
+    aside {
         display: none;
     }
 }
 
-.model{
+.model {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,18 +69,22 @@ footer{
     text-align: center;
     margin: 10px;
 }
-.imagem_produto{
+
+.imagem_produto {
     height: 350px;
 }
-.d_produto{
+
+.d_produto {
     color: rgb(255, 255, 255);
     font-size: xx-large;
 }
-.p_produto{
+
+.p_produto {
     color: rgb(216, 219, 0);
     font-size: 40px;
 }
-.botao_produto{
+
+.botao_produto {
     font-size: 30px;
     background-color: black;
     width: 50%;
@@ -76,14 +92,39 @@ footer{
     height: 50px;
     border-radius: 20px;
 }
-.letra_botao{
+
+.letra_botao {
     display: block;
     text-align: center;
     text-decoration: none;
     color: aliceblue;
 }
-.prod{
+
+.prod {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@font-face {
+    font-family: 'Batman Forever';
+    src: url(Imgs/batman_forever/batmfa__.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logotipo {
+    height: 200px;
+    width: 200px;
+}
+h5{
+    place-items: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.carrinho{
+    height: 50px;
+    width: 50px;
+    place-items: right;
 }
