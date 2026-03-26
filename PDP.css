@@ -3,6 +3,7 @@ body {
     grid-template-areas: "cabeca cabeca" "braco braco" "corpo corpo" "pe pe";
     grid-template-rows: 150px 50px auto 100px;
     grid-template-columns: 1fr 4fr;
+    margin: 0;
 
 }
 
@@ -125,5 +126,11 @@ h5{
 .carrinho{
     height: 50px;
     width: 50px;
-    margin-left: 1400px;
+    position: absolute;
+    right: 0; 
+    top: 0;  
+}
+.botao_coisax{
+    width: 40px;
+    height: 30px;
 }
