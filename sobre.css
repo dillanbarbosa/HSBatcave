@@ -138,7 +138,7 @@ h5 {
     body {
         display: grid;
         grid-template-areas: "cabeca" "braco" "corpo" "pe";
-        grid-template-rows: auto 50px auto 100px;
+        grid-template-rows: 90px 50px auto 100px;
         grid-template-columns: auto;
         margin: 0;
     }
