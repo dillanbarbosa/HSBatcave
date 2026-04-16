@@ -111,9 +111,10 @@ footer {
 }
 
 h5 {
+    place-items: center;
     color: white;
-    text-align: center;
-    margin: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 @font-face {
